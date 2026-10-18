@@ -1,0 +1,80 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "samples_total": 4,
+  "samples_failed": 0,
+  "samples_ok": 4,
+  "avg_input_tokens": 5664.25,
+  "p95_input_tokens": 5678.3,
+  "avg_ttft_ms": 1871.2468789999548,
+  "p95_ttft_ms": 1889.4997851930384,
+  "avg_ttfms_ms": 2138.829608251399,
+  "p95_ttfms_ms": 2157.981317694066,
+  "avg_e2e_latency_ms": 15332.959272749576,
+  "p95_e2e_latency_ms": 15696.624953089486,
+  "avg_output_tok_per_s": 14.445562869790857,
+  "p50_output_tok_per_s": 14.481017234451123,
+  "p95_output_tok_per_s": 14.483260477001231,
+  "avg_output_char_per_s": 49.1642118311475,
+  "avg_inter_token_p95_ms": 70.52558595023584,
+  "peak_server_rss_mb_max": 3325.13671875,
+  "peak_gpu_used_mb_max": 21113.0,
+  "json_valid_rate": NaN,
+  "schema_match_rate": NaN,
+  "field_completeness": NaN,
+  "json_sample_count": 0,
+  "json_failure_mode_counts": {},
+  "json_failure_mode_rates": {},
+  "groups": {
+    "long_context_pt_br_primary": 4
+  },
+  "language_counts": {
+    "pt-BR": 4
+  },
+  "pt_br_ratio": 1.0,
+  "concurrency_breakdown": {
+    "4": {
+      "samples_total": 4,
+      "samples_ok": 4,
+      "avg_ttft_ms": 1871.2468789999548,
+      "p95_ttft_ms": 1889.4997851930384,
+      "json_valid_rate": NaN,
+      "schema_match_rate": NaN,
+      "field_completeness": NaN
+    }
+  },
+  "utterances_jsonl": "<internal-src>/llm/benchmarks/Qwen3-8B/20260422_175428_stream_long_c4_refresh_c4_r1_temp0p0_no_think/utterances.jsonl",
+  "runtime": {
+    "python_executable": "<internal-src>/llm/.venv_vllm/bin/python",
+    "python_version": "3.10.17",
+    "rss_mb": 834.7265625
+  },
+  "model_id": "Qwen/Qwen3-8B",
+  "served_model_name": "Qwen/Qwen3-8B",
+  "prompt_groups": [
+    "long_context_pt_br_primary"
+  ],
+  "max_samples": 0,
+  "max_completion_tokens": 200,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "warmup_requests": 1,
+  "repeats": 1,
+  "concurrency": 4,
+  "run_label": "stream_long_c4_refresh",
+  "dtype": "auto",
+  "quantization": null,
+  "tensor_parallel_size": 1,
+  "gpu_memory_utilization": 0.9,
+  "max_model_len": 8192,
+  "enforce_eager": false,
+  "base_url": "http://127.0.0.1:53161/v1",
+  "disable_thinking": true,
+  "thinking_control_method": "chat_template_kwargs.enable_thinking=false",
+  "qwen3_no_think": false,
+  "qwen35_no_think": false,
+  "language_model_only": false,
+  "model_weights_gib": 15.27,
+  "kv_cache_gib": 3.83,
+  "kv_cache_tokens": 27920,
+  "engine_init_s": 22.31
+}

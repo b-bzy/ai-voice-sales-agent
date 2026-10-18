@@ -1,0 +1,8 @@
+language_mode,model_backend,category,n_responses,naturalness_avg,naturalness_p10,clarity_avg,clarity_p10,pronunciation_accuracy_avg,pronunciation_accuracy_p10,prosody_rhythm_avg,prosody_rhythm_p10,listening_comfort_avg,listening_comfort_p10,low_score_rate,obvious_issue_rate,top_issue_types
+vi_vn,gpt-realtime-2,empathy_explanation,15,4.8,4.0,5.2,5.0,5.133,4.4,5.133,4.4,4.867,4.4,0.0,0.0,
+vi_vn,gpt-realtime-2,long_multiclause,22,4.455,4.0,4.818,4.0,4.727,4.0,4.682,3.1,4.5,4.0,0.0,0.0,
+vi_vn,gpt-realtime-2,normal_statement,27,4.407,4.0,4.741,4.0,4.704,3.0,4.667,3.0,4.519,4.0,0.0,0.0,
+vi_vn,gpt-realtime-2,number_date_money,41,,,5.341,4.0,,,,,,,0.0,0.0244,machine_like:1;too_slow:1
+vi_vn,gpt-realtime-2,question,16,4.75,4.0,5.062,4.0,5.0,4.0,5.062,4.0,4.688,4.0,0.0,0.0,
+vi_vn,gpt-realtime-2,sales_service,26,4.5,4.0,4.731,4.0,4.654,3.0,4.769,4.0,4.577,4.0,0.0,0.0,
+vi_vn,gpt-realtime-2,short_greeting,22,4.409,3.0,4.773,3.0,4.818,3.0,4.727,3.0,4.273,3.0,0.0,0.0455,too_slow:1

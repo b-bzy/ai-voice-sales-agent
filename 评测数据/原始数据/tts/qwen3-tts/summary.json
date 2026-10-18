@@ -1,0 +1,50 @@
+{
+  "model": "qwen3-tts",
+  "samples_total": 10,
+  "samples_failed": 0,
+  "samples_ok": 10,
+  "official_streaming": true,
+  "license": "Apache-2.0",
+  "avg_audio_duration_s": 8.3920125,
+  "total_audio_duration_s": 83.920125,
+  "avg_synth_time_s": 19.427065946289805,
+  "avg_rtf": 2.316322949236811,
+  "p50_rtf": 2.2890913815376743,
+  "p95_rtf": 2.452177756646221,
+  "avg_first_chunk_latency_ms": NaN,
+  "p95_first_chunk_latency_ms": NaN,
+  "peak_rss_mb_max": 2244.80078125,
+  "peak_cuda_mb_max": 2494.97265625,
+  "modes": {
+    "voice_clone_local_simulated_stream": 10
+  },
+  "utterances_jsonl": "<internal-src>/tts/benchmarks/qwen3-tts/20260420_145241/qwen3-tts/utterances.jsonl",
+  "runtime": {
+    "python_executable": "<internal-src>/tts/vendors/Qwen3-TTS/.venv/bin/python",
+    "python_version": "3.12.13",
+    "cuda_available": true,
+    "rss_mb": 2244.80078125
+  },
+  "vendor_repo": {
+    "path": "<internal-src>/tts/vendors/Qwen3-TTS",
+    "commit": "022e286b98fbec7e1e916cb940cdf532cd9f488e",
+    "branch": "main",
+    "remote_url": "https://github.com/QwenLM/Qwen3-TTS.git"
+  },
+  "model_id": "tts/models/qwen3_tts/Qwen3-TTS-12Hz-0.6B-Base",
+  "mode": "voice_clone",
+  "text_group": "naturalness_blind_pt_br",
+  "language": "Portuguese",
+  "speaker": "Ryan",
+  "dtype": "bfloat16",
+  "attn_implementation_requested": "sdpa",
+  "attn_implementation_effective": "sdpa",
+  "allow_tf32": true,
+  "reference_sample": {
+    "audio_path": "<internal-src>/stt/dev/common_voice_pt_19289339.wav",
+    "transcript": "era incrivelmente quente não uma nuvem no céu nem um sopro de vento",
+    "duration_s": 7.9,
+    "source": "Mozilla Common Voice pt-BR dev subset already stored in stt/dev"
+  },
+  "streaming_capability_note": "local package path used here is simulated streaming only; true realtime streaming is exposed via official API/docs, not this local benchmark"
+}

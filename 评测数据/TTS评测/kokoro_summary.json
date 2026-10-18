@@ -1,0 +1,33 @@
+{
+  "model": "kokoro",
+  "samples_total": 10,
+  "samples_failed": 0,
+  "samples_ok": 10,
+  "official_streaming": false,
+  "license": "Apache-2.0",
+  "avg_audio_duration_s": 6.0600000000000005,
+  "total_audio_duration_s": 60.599999999999994,
+  "avg_synth_time_s": 0.22432385839056224,
+  "avg_rtf": 0.03701420152422892,
+  "p50_rtf": 0.0247044324056939,
+  "p95_rtf": 0.0985695280213837,
+  "avg_first_chunk_latency_ms": 224.31514209602028,
+  "p95_first_chunk_latency_ms": 600.4442674020529,
+  "peak_rss_mb_max": 2056.6953125,
+  "peak_cuda_mb_max": 682.09130859375,
+  "modes": {
+    "pipeline_iter": 10
+  },
+  "utterances_jsonl": "<internal-src>/tts/benchmarks/kokoro/20260420_145808/kokoro/utterances.jsonl",
+  "runtime": {
+    "python_executable": "<internal-src>/tts/kokoro/.venv_gpu/bin/python",
+    "python_version": "3.10.17",
+    "cuda_available": true,
+    "rss_mb": 2056.6953125
+  },
+  "voice": "pf_dora",
+  "lang_code": "p",
+  "device": "cuda",
+  "text_group": "naturalness_blind_pt_br",
+  "streaming_capability_note": "Kokoro Python generator yields text segments, not a dedicated realtime server stream"
+}

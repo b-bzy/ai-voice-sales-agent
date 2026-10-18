@@ -1,0 +1,52 @@
+{
+  "exported_at": "2026-05-14T15:07:27.367+00:00",
+  "audit_updated_at": "2026-05-15",
+  "eval_run_id": "vi_tts_eval_20260429_v1",
+  "eval_label": "gpt_realtime_2_mixed_vi_pt_br_human_eval_20260514",
+  "language_mode": "mixed_vi_vn_pt_br",
+  "architecture": "speech_to_speech",
+  "model_backend": "gpt-realtime-2",
+  "llm_model": "not_applicable_for_sts_backend",
+  "tts_model": "not_applicable_for_sts_backend",
+  "voice": "not_recorded",
+  "instructions_hash": "not_recorded",
+  "instructions_source": "not_recorded",
+  "input_mode": "not_recorded",
+  "source_export_tester_count": 39,
+  "pt_br_tester_count": 8,
+  "pt_br_included_real_tester_count": 6,
+  "pt_br_incomplete_or_test_residual_tester_count": 2,
+  "sample_count": 64,
+  "sample_instance_count": 415,
+  "source_export_response_count": 372,
+  "pt_br_response_count": 203,
+  "pt_br_included_response_count": 192,
+  "pt_br_included_number_dictation_count": 48,
+  "pt_br_strict_number_match_count": 17,
+  "pt_br_normalized_number_match_count": 44,
+  "schema_notes": {
+    "legacy_latency_fields": [
+      "llm_ttft_ms",
+      "llm_first_segment_ms",
+      "tts_first_audio_ms",
+      "total_response_ms"
+    ],
+    "sts_backend_interpretation": "gpt-realtime-2 is an end-to-end speech-to-speech backend. llm_ttft_ms and llm_first_segment_ms are not applicable. Use tts_first_audio_ms as first playable audio approximation and total_response_ms as full response completion.",
+    "recommended_next_schema": [
+      "first_audio_chunk_ms",
+      "audio_complete_ms",
+      "audio_duration_ms",
+      "e2e_latency_ms"
+    ]
+  },
+  "cleaning_rules": {
+    "rating_scale": "0-6, where 0 is worst and 6 is best",
+    "low_score_rate": "any primary subjective rating <= 1",
+    "number_acceptable_match": "raw export initially equals exact_match; audit table adds normalized_exact_match for amount/date/digit equivalence"
+  },
+  "known_limitations": [
+    "voice, instructions, instructions hash, and input mode were not recorded in the source export",
+    "source export is mixed-language; pt_br_real6_audit_20260515 isolates the six complete Brazilian Portuguese testers",
+    "issue sample audio files are referenced by server paths but are not included in this repository, so manual relistening is still pending"
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "model": "nvidia-parakeet-ctc-0.6b-vietnamese",
+    "audio_profile": "telephone8k",
+    "samples_total": 50,
+    "samples_failed": 0,
+    "samples_ok": 50,
+    "official_streaming": false,
+    "avg_audio_duration_s": 10.362,
+    "total_audio_duration_s": 518.1,
+    "avg_full_infer_time_s": 0.11190849623759277,
+    "avg_stream_total_time_s": 1.4871993541449775,
+    "full_rtf": 0.010799893479790847,
+    "stream_rtf": 0.14352435380669537,
+    "full_wer": 0.13114754098360656,
+    "full_cer": 0.08712529652792754,
+    "stream_wer": 0.13189269746646795,
+    "stream_cer": 0.0875566098770757,
+    "avg_stream_avg_chunk_latency_ms": 93.76972131697234,
+    "p95_stream_avg_chunk_latency_ms": 102.76988295143903,
+    "avg_stream_first_partial_latency_ms": 209.991333844373,
+    "p95_stream_first_partial_latency_ms": 288.3123807318043,
+    "full_peak_rss_mb_max": 3419.03515625,
+    "stream_peak_rss_mb_max": 3419.03515625,
+    "full_peak_cuda_mb_max": 4685.3359375,
+    "stream_peak_cuda_mb_max": 4685.3359375,
+    "utterances_jsonl": "<internal-src>/stt/benchmarks/20260424_vi_tel8k_50gpu_simple/parakeet_vi/telephone8k/nvidia-parakeet-ctc-0.6b-vietnamese/utterances.jsonl"
+  }
+]

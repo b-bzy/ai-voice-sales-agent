@@ -1,0 +1,5 @@
+tester_id,responses,reason,first_response,last_response
+vi_native_07ae9ece1b,32,complete_but_not_counted_as_real_tester_reason_not_recorded_in_export,2026-05-12T11:04:17.742+00:00,2026-05-12T11:13:09.921+00:00
+vi_native_8332c4a2cd,4,incomplete_or_test_residual,2026-05-11T20:01:57.872+00:00,2026-05-11T20:03:53.943+00:00
+vi_native_899dd707c8,1,incomplete_or_test_residual,2026-05-12T12:31:39.414+00:00,2026-05-12T12:31:39.414+00:00
+vi_native_b4cd6af120,4,incomplete_or_test_residual,2026-05-12T13:10:35.339+00:00,2026-05-12T13:13:42.850+00:00

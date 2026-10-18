@@ -1,0 +1,15 @@
+language_mode,model_backend,category,n_responses,naturalness_avg,naturalness_p10,clarity_avg,clarity_p10,pronunciation_accuracy_avg,pronunciation_accuracy_p10,prosody_rhythm_avg,prosody_rhythm_p10,listening_comfort_avg,listening_comfort_p10,low_score_rate,obvious_issue_rate,top_issue_types
+pt_br,gpt-realtime-2,empathy_explanation,18,4.056,1.7,4.889,3.7,4.5,3.7,4.111,2.0,4.167,2.4,0.1667,0.0,
+pt_br,gpt-realtime-2,long_multiclause,24,4.25,3.0,4.792,3.3,4.542,3.3,4.5,2.6,4.542,3.0,0.0417,0.0,
+pt_br,gpt-realtime-2,normal_statement,30,4.267,2.9,4.967,4.0,4.567,3.9,4.367,3.0,4.633,3.0,0.0667,0.0,
+pt_br,gpt-realtime-2,number_date_money,48,,,4.979,3.7,,,,,,,0.0,0.0208,too_fast:1;too_slow:1
+pt_br,gpt-realtime-2,question,18,4.222,2.4,5.167,4.0,4.5,3.0,4.333,2.0,4.167,1.7,0.1667,0.0,
+pt_br,gpt-realtime-2,sales_service,30,4.133,2.0,5.1,4.0,4.467,3.0,4.267,2.0,4.367,3.0,0.1333,0.0,
+pt_br,gpt-realtime-2,short_greeting,24,3.875,1.3,5.0,4.0,4.542,3.0,4.25,2.3,4.458,3.0,0.1667,0.0,
+vi_vn,gpt-realtime-2,empathy_explanation,15,4.8,4.0,5.2,5.0,5.133,4.4,5.133,4.4,4.867,4.4,0.0,0.0,
+vi_vn,gpt-realtime-2,long_multiclause,20,4.5,4.0,4.95,4.0,4.85,4.0,4.8,3.9,4.55,4.0,0.0,0.0,
+vi_vn,gpt-realtime-2,normal_statement,25,4.44,4.0,4.88,4.0,4.84,4.0,4.8,4.0,4.56,4.0,0.0,0.0,
+vi_vn,gpt-realtime-2,number_date_money,40,,,5.375,4.0,,,,,,,0.0,0.025,machine_like:1;too_slow:1
+vi_vn,gpt-realtime-2,question,15,4.8,4.0,5.133,4.0,5.067,4.0,5.133,4.0,4.733,4.0,0.0,0.0,
+vi_vn,gpt-realtime-2,sales_service,25,4.52,4.0,4.76,4.0,4.68,3.0,4.8,4.0,4.6,4.0,0.0,0.0,
+vi_vn,gpt-realtime-2,short_greeting,20,4.45,3.0,4.85,3.0,4.9,3.0,4.85,3.0,4.3,3.0,0.0,0.05,too_slow:1

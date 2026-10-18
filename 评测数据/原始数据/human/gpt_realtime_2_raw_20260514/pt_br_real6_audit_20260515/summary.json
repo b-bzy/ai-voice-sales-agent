@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-05-15",
+  "source_dir": "docs/research/benson/eval_runs/gpt_realtime_2_raw_20260514",
+  "language_mode": "pt_br",
+  "architecture": "speech_to_speech",
+  "model_backend": "gpt-realtime-2",
+  "voice": "not_recorded",
+  "instructions_hash": "not_recorded",
+  "input_mode": "not_recorded",
+  "included_testers": [
+    "vi_native_14aaf2de87",
+    "vi_native_191a64a955",
+    "vi_native_80241a5b53",
+    "vi_native_9227f2ca28",
+    "vi_native_9be3105760",
+    "vi_native_bda23e7079"
+  ],
+  "excluded_pt_testers": [
+    {
+      "tester_id": "vi_native_aa8e022ecd",
+      "responses": 1,
+      "reason": "incomplete_or_test_residual",
+      "first_response": "2026-05-13T15:31:26.189+00:00",
+      "last_response": "2026-05-13T15:31:26.189+00:00"
+    },
+    {
+      "tester_id": "vi_native_e6e9ff2454",
+      "responses": 10,
+      "reason": "incomplete_or_test_residual",
+      "first_response": "2026-05-13T16:40:04.753+00:00",
+      "last_response": "2026-05-13T16:46:09.305+00:00"
+    }
+  ],
+  "included_response_count": 192,
+  "included_number_dictation_count": 48,
+  "strict_number_exact": 17,
+  "normalized_number_exact": 44,
+  "issue_sample_count": 1
+}

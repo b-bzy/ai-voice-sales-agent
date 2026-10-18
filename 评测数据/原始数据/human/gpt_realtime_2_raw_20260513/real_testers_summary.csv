@@ -1,0 +1,6 @@
+tester_id,language_mode,model_backend,responses,unique_samples,final_feedbacks,native_language,region,age_range,device_type,audio_output,environment,tts_familiarity,first_response,last_response,avg_naturalness,avg_clarity,avg_pronunciation,avg_prosody,avg_comfort,issue_yes
+vi_native_6b992f17af,vi_vn,gpt-realtime-2,32,32,1,Tiếng Việt,miền Nam,25-34,Điện thoại,Loa ngoài,Yên tĩnh,Thỉnh thoảng,2026-05-12T10:48:42.519+00:00,2026-05-12T10:58:57.010+00:00,4.13,4.41,4.13,4.13,4.13,0
+vi_native_07ae9ece1b,vi_vn,gpt-realtime-2,32,32,0,Tiếng Việt,miền Nam,35-44,Điện thoại,Loa ngoài,Bình thường,Ít khi nghe,2026-05-12T11:04:17.742+00:00,2026-05-12T11:13:09.921+00:00,4.17,4.28,4.17,4.13,4.13,0
+vi_native_99971e1db8,vi_vn,gpt-realtime-2,32,32,1,Tiếng Việt,miền Bắc,25-34,Máy tính,Tai nghe,Yên tĩnh,Thỉnh thoảng,2026-05-12T12:40:20.838+00:00,2026-05-12T13:05:35.357+00:00,4.67,5.28,5.21,5.21,4.83,1
+vi_native_e7b6bade49,vi_vn,gpt-realtime-2,32,32,1,Tiếng Việt,miền Bắc,25-34,Máy tính,Tai nghe,Yên tĩnh,Thỉnh thoảng,2026-05-12T13:14:07.491+00:00,2026-05-12T13:29:25.034+00:00,4.92,6.0,6.0,6.0,4.96,0
+vi_native_91ae486eaf,vi_vn,gpt-realtime-2,32,32,1,Tiếng Việt,miền Bắc,25-34,Máy tính,Tai nghe,Yên tĩnh,Thỉnh thoảng,2026-05-12T13:42:58.841+00:00,2026-05-12T14:05:48.300+00:00,4.92,5.25,4.92,5.0,4.88,1

@@ -1,0 +1,45 @@
+{
+  "model": "cosyvoice",
+  "samples_total": 10,
+  "samples_failed": 0,
+  "samples_ok": 10,
+  "official_streaming": true,
+  "license": "Apache-2.0",
+  "avg_audio_duration_s": 9.160272108843538,
+  "total_audio_duration_s": 91.60272108843537,
+  "avg_synth_time_s": 9.95823495570221,
+  "avg_rtf": 1.0889362223274275,
+  "p50_rtf": 1.0564502812520287,
+  "p95_rtf": 1.2306752786863788,
+  "avg_first_chunk_latency_ms": 9100.79503999441,
+  "p95_first_chunk_latency_ms": 11059.335638410994,
+  "peak_rss_mb_max": 3967.7890625,
+  "peak_cuda_mb_max": 2683.3232421875,
+  "modes": {
+    "cross_lingual_stream": 1,
+    "cross_lingual_offline": 9
+  },
+  "utterances_jsonl": "<internal-src>/tts/benchmarks/cosyvoice/20260420_145607/cosyvoice/utterances.jsonl",
+  "runtime": {
+    "python_executable": "<internal-src>/tts/vendors/CosyVoice/.venv_manual/bin/python",
+    "python_version": "3.10.17",
+    "cuda_available": true,
+    "rss_mb": 3967.7890625
+  },
+  "vendor_repo": {
+    "path": "<internal-src>/tts/vendors/CosyVoice",
+    "commit": "ace7c47f41bbd303aa6bf1ea80e6f9fbd595cd40",
+    "branch": "main",
+    "remote_url": "https://github.com/FunAudioLLM/CosyVoice.git"
+  },
+  "model_dir": "<internal-src>/tts/models/cosyvoice/CosyVoice-300M",
+  "model_family": "cosyvoice_or_cosyvoice2",
+  "text_group": "naturalness_blind_pt_br",
+  "reference_sample": {
+    "audio_path": "<internal-src>/stt/dev/common_voice_pt_19289339.wav",
+    "transcript": "era incrivelmente quente não uma nuvem no céu nem um sopro de vento",
+    "duration_s": 7.9,
+    "source": "Mozilla Common Voice pt-BR dev subset already stored in stt/dev"
+  },
+  "pt_br_support_note": "CosyVoice official README does not list Portuguese support for CosyVoice3; this benchmark intentionally probes pt-BR cross-lingual behavior"
+}

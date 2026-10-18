@@ -1,0 +1,4 @@
+evaluator_id,round,clip_id,text,naturalness_1_5,accent_authenticity_1_5,pronunciation_accuracy_1_5,prosody_1_5,audio_cleanliness_1_5,telesales_readiness_1_5,understandable_yes_no,would_flag_as_ai_yes_no,major_issue_type,comment_pt_br
+sample_eval_01,round1,A_blind_01,"Bom dia. Antes de começarmos a reunião, eu queria agradecer o esforço de todo mundo nesta entrega.",,,,,,,,,,
+sample_eval_01,round1,A_blind_02,"A chuva passou durante a madrugada e a cidade amanheceu silenciosa, com um vento frio vindo do mar.",,,,,,,,,,
+sample_eval_01,round1,A_blind_03,"Quando a gravação termina muito rápido, algumas vogais ficam espremidas e a frase perde naturalidade.",,,,,,,,,,

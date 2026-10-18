@@ -1,0 +1,29 @@
+[
+  {
+    "model": "sherpa-onnx-zipformer-vi",
+    "audio_profile": "telephone8k",
+    "samples_total": 50,
+    "samples_failed": 0,
+    "samples_ok": 50,
+    "official_streaming": false,
+    "avg_audio_duration_s": 10.362,
+    "total_audio_duration_s": 518.1,
+    "avg_full_infer_time_s": 0.2557433319173288,
+    "avg_stream_total_time_s": 2.471011080060853,
+    "full_rtf": 0.02468088514932723,
+    "stream_rtf": 0.2384685466184957,
+    "full_wer": 0.09388971684053651,
+    "full_cer": 0.07353892602976062,
+    "stream_wer": 0.09388971684053651,
+    "stream_cer": 0.0737545827043347,
+    "avg_stream_avg_chunk_latency_ms": 146.2672153669475,
+    "p95_stream_avg_chunk_latency_ms": 173.41426030676695,
+    "avg_stream_first_partial_latency_ms": 95.63153210328892,
+    "p95_stream_first_partial_latency_ms": 178.91389745054767,
+    "full_peak_rss_mb_max": 1462.0625,
+    "stream_peak_rss_mb_max": 1467.0,
+    "full_peak_cuda_mb_max": 0.0,
+    "stream_peak_cuda_mb_max": 0.0,
+    "utterances_jsonl": "<internal-src>/stt/benchmarks/20260424_vi_tel8k_50gpu_simple/sherpa_vi/telephone8k/sherpa-onnx-zipformer-vi/utterances.jsonl"
+  }
+]

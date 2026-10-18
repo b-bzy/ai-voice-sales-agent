@@ -1,0 +1,113 @@
+{
+  "real_tester_ids": [
+    "vi_native_9eabca696a",
+    "vi_native_16a7d47226",
+    "vi_native_013404c802",
+    "vi_native_0b06ac2857"
+  ],
+  "counts": {
+    "testers": 4,
+    "responses": 128,
+    "sample_instances": 132,
+    "traces": 132,
+    "number_dictations": 32,
+    "final_feedback": 2
+  },
+  "overall": {
+    "naturalness": {
+      "n": 96,
+      "avg": 3.5416666666666665,
+      "median": 2.0,
+      "p10": 2.0,
+      "p95": 6.0,
+      "min": 0,
+      "max": 6
+    },
+    "clarity": {
+      "n": 128,
+      "avg": 5.265625,
+      "median": 5.0,
+      "p10": 4.0,
+      "p95": 6.0,
+      "min": 2,
+      "max": 6
+    },
+    "pronunciation_accuracy": {
+      "n": 96,
+      "avg": 4.90625,
+      "median": 5.0,
+      "p10": 3.0,
+      "p95": 6.0,
+      "min": 2,
+      "max": 6
+    },
+    "prosody_rhythm": {
+      "n": 96,
+      "avg": 4.541666666666667,
+      "median": 5.0,
+      "p10": 3.0,
+      "p95": 6.0,
+      "min": 2,
+      "max": 6
+    },
+    "listening_comfort": {
+      "n": 96,
+      "avg": 3.59375,
+      "median": 3.0,
+      "p10": 2.0,
+      "p95": 6.0,
+      "min": 2,
+      "max": 6
+    },
+    "understandability": {
+      "n": 32,
+      "avg": 5.375,
+      "median": 6.0,
+      "p10": 4.0,
+      "p95": 6.0,
+      "min": 2,
+      "max": 6
+    }
+  },
+  "number_exact": 13,
+  "number_acceptable": 13,
+  "number_total": 32,
+  "perf": {
+    "llm_ttft_ms": {
+      "n": 128,
+      "avg": 37.5546875,
+      "median": 39.0,
+      "p10": 34.0,
+      "p95": 41.0,
+      "min": 33,
+      "max": 42
+    },
+    "llm_first_segment_ms": {
+      "n": 128,
+      "avg": 94.7734375,
+      "median": 96.0,
+      "p10": 92.0,
+      "p95": 98.65,
+      "min": 38,
+      "max": 99
+    },
+    "tts_first_audio_ms": {
+      "n": 128,
+      "avg": 1054.9765625,
+      "median": 974.0,
+      "p10": 628.4,
+      "p95": 1711.8500000000004,
+      "min": 482,
+      "max": 1797
+    },
+    "total_response_ms": {
+      "n": 128,
+      "avg": 3475.0703125,
+      "median": 2717.5,
+      "p10": 2016.1999999999998,
+      "p95": 9038.45,
+      "min": 1599,
+      "max": 9752
+    }
+  }
+}

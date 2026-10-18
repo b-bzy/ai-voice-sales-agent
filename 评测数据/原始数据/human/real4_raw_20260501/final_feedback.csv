@@ -1,0 +1,7 @@
+feedback_id,eval_run_id,tester_id,overall_humanlike,overall_comfort,main_problem,accent_guess,speed_guess,voice_age_guess,submitted_at
+feedback_6cb72be8b968,vi_tts_eval_20260429_v1,vi_native_9eabca696a,5,5,"Khi chào anh chị hãy đọc liền, đừng đọc dấu /
+Nhịp điệu ngắt nghỉ tự nhiên hơn
+Phát âm chuẩn",Miền Bắc,Vừa,Trung tính,2026-04-30T07:54:33.966+00:00
+feedback_15b7901a6115,vi_tts_eval_20260429_v1,vi_native_16a7d47226,4,4,"Dấu / khi đọc ra là chắc chắn sẽ biết ai, người bình thường chỉ nói là chào anh chị, không đọc dấu câu
+Một số phần đọc số điện thoại hơi nhanh
+Ngữ điệu ngừng nghỉ nên tự nhiên hơn",Miền Bắc,Vừa,Trung tính,2026-04-30T08:09:20.604+00:00

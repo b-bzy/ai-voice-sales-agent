@@ -1,0 +1,5 @@
+tester_id,eval_run_id,native_language,region,age_range,device_type,audio_output,environment,tts_familiarity,created_at
+vi_native_9eabca696a,vi_tts_eval_20260429_v1,Tiếng Việt,miền Nam,25-34,Điện thoại,Tai nghe,Yên tĩnh,Ít khi nghe,2026-04-30T07:41:56.525+00:00
+vi_native_16a7d47226,vi_tts_eval_20260429_v1,Tiếng Việt,miền Nam,35-44,Máy tính,Tai nghe,Yên tĩnh,Ít khi nghe,2026-04-30T07:56:33.659+00:00
+vi_native_013404c802,vi_tts_eval_20260429_v1,Tiếng Việt,miền Bắc,25-34,Máy tính,Tai nghe,Yên tĩnh,Thỉnh thoảng,2026-04-30T14:16:51.769+00:00
+vi_native_0b06ac2857,vi_tts_eval_20260429_v1,Tiếng Việt,miền Bắc,25-34,Máy tính,Tai nghe,Yên tĩnh,Thỉnh thoảng,2026-04-30T15:14:57.809+00:00

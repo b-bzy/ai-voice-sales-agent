@@ -1,0 +1,80 @@
+{
+  "model": "google/gemma-4-E2B-it",
+  "samples_total": 12,
+  "samples_failed": 0,
+  "samples_ok": 12,
+  "avg_input_tokens": 63.666666666666664,
+  "p95_input_tokens": 68.45,
+  "avg_ttft_ms": 120.54808974911187,
+  "p95_ttft_ms": 223.37372334368405,
+  "avg_ttfms_ms": 196.34752650017617,
+  "p95_ttfms_ms": 305.8312420434959,
+  "avg_e2e_latency_ms": 1604.7152765010349,
+  "p95_e2e_latency_ms": 3752.14615835357,
+  "avg_output_tok_per_s": 48.61552505422279,
+  "p50_output_tok_per_s": 48.81596427864571,
+  "p95_output_tok_per_s": 49.897882336027585,
+  "avg_output_char_per_s": 190.69685814375626,
+  "avg_inter_token_p95_ms": 22.49178533753972,
+  "peak_server_rss_mb_max": 5468.87109375,
+  "peak_gpu_used_mb_max": 21703.0,
+  "json_valid_rate": NaN,
+  "schema_match_rate": NaN,
+  "field_completeness": NaN,
+  "json_sample_count": 0,
+  "json_failure_mode_counts": {},
+  "json_failure_mode_rates": {},
+  "groups": {
+    "quick_stream_pt_br_primary": 12
+  },
+  "language_counts": {
+    "pt-BR": 12
+  },
+  "pt_br_ratio": 1.0,
+  "concurrency_breakdown": {
+    "8": {
+      "samples_total": 12,
+      "samples_ok": 12,
+      "avg_ttft_ms": 120.54808974911187,
+      "p95_ttft_ms": 223.37372334368405,
+      "json_valid_rate": NaN,
+      "schema_match_rate": NaN,
+      "field_completeness": NaN
+    }
+  },
+  "utterances_jsonl": "<internal-src>/llm/benchmarks/gemma-4-E2B-it/20260422_174624_stream_c8_refresh_c8_r1_temp0p0/utterances.jsonl",
+  "runtime": {
+    "python_executable": "<internal-src>/llm/.venv_vllm/bin/python",
+    "python_version": "3.10.17",
+    "rss_mb": 1057.55078125
+  },
+  "model_id": "google/gemma-4-E2B-it",
+  "served_model_name": "google/gemma-4-E2B-it",
+  "prompt_groups": [
+    "quick_stream_pt_br_primary"
+  ],
+  "max_samples": 0,
+  "max_completion_tokens": 200,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "warmup_requests": 1,
+  "repeats": 1,
+  "concurrency": 8,
+  "run_label": "stream_c8_refresh",
+  "dtype": "auto",
+  "quantization": null,
+  "tensor_parallel_size": 1,
+  "gpu_memory_utilization": 0.9,
+  "max_model_len": 8192,
+  "enforce_eager": false,
+  "base_url": "http://127.0.0.1:59325/v1",
+  "disable_thinking": false,
+  "thinking_control_method": "model_default",
+  "qwen3_no_think": false,
+  "qwen35_no_think": false,
+  "language_model_only": false,
+  "model_weights_gib": 9.79,
+  "kv_cache_gib": 8.9,
+  "kv_cache_tokens": 310896,
+  "engine_init_s": 23.95
+}

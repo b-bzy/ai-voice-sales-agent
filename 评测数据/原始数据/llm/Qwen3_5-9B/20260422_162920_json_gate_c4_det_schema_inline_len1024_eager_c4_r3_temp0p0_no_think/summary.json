@@ -1,0 +1,84 @@
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "samples_total": 60,
+  "samples_failed": 60,
+  "samples_ok": 0,
+  "avg_input_tokens": NaN,
+  "p95_input_tokens": NaN,
+  "avg_ttft_ms": NaN,
+  "p95_ttft_ms": NaN,
+  "avg_ttfms_ms": NaN,
+  "p95_ttfms_ms": NaN,
+  "avg_e2e_latency_ms": NaN,
+  "p95_e2e_latency_ms": NaN,
+  "avg_output_tok_per_s": NaN,
+  "p50_output_tok_per_s": NaN,
+  "p95_output_tok_per_s": NaN,
+  "avg_output_char_per_s": NaN,
+  "avg_inter_token_p95_ms": NaN,
+  "peak_server_rss_mb_max": NaN,
+  "peak_gpu_used_mb_max": NaN,
+  "json_valid_rate": 0.0,
+  "schema_match_rate": 0.0,
+  "field_completeness": 0.0,
+  "json_sample_count": 60,
+  "json_failure_mode_counts": {
+    "empty_output": 60
+  },
+  "json_failure_mode_rates": {
+    "empty_output": 1.0
+  },
+  "groups": {
+    "json_strict_pt_br_primary": 60
+  },
+  "language_counts": {
+    "pt-BR": 60
+  },
+  "pt_br_ratio": 1.0,
+  "concurrency_breakdown": {
+    "4": {
+      "samples_total": 60,
+      "samples_ok": 0,
+      "avg_ttft_ms": NaN,
+      "p95_ttft_ms": NaN,
+      "json_valid_rate": 0.0,
+      "schema_match_rate": 0.0,
+      "field_completeness": 0.0
+    }
+  },
+  "utterances_jsonl": "<internal-src>/llm/benchmarks/Qwen3_5-9B/20260422_162920_json_gate_c4_det_schema_inline_len1024_eager_c4_r3_temp0p0_no_think/utterances.jsonl",
+  "runtime": {
+    "python_executable": "<internal-src>/llm/.venv_vllm/bin/python",
+    "python_version": "3.10.17",
+    "rss_mb": 984.8828125
+  },
+  "model_id": "Qwen/Qwen3.5-9B",
+  "served_model_name": "Qwen/Qwen3.5-9B",
+  "prompt_groups": [
+    "json_strict_pt_br_primary"
+  ],
+  "max_samples": 0,
+  "max_completion_tokens": 200,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "warmup_requests": 1,
+  "repeats": 3,
+  "concurrency": 4,
+  "run_label": "json_gate_c4_det_schema_inline_len1024_eager",
+  "dtype": "auto",
+  "quantization": null,
+  "tensor_parallel_size": 1,
+  "gpu_memory_utilization": 0.9,
+  "max_model_len": 1024,
+  "enforce_eager": true,
+  "base_url": "http://127.0.0.1:60433/v1",
+  "disable_thinking": true,
+  "thinking_control_method": "chat_template_kwargs.enable_thinking=false",
+  "qwen3_no_think": false,
+  "qwen35_no_think": false,
+  "language_model_only": false,
+  "model_weights_gib": 17.66,
+  "kv_cache_gib": 0.14,
+  "kv_cache_tokens": 1056,
+  "engine_init_s": 17.1
+}

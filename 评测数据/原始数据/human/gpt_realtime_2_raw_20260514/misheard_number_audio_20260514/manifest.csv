@@ -1,0 +1,7 @@
+language,filename,expected,heard,issue
+pt_br,pt_br_number_date_money_008_vi_native_191a64a955_d526ecc3.wav,482906,489206,验证码数字顺序错
+pt_br,pt_br_number_date_money_002_vi_native_80241a5b53_f4802549.wav,"R$ 1.250,00",1.520,金额错听
+pt_br,pt_br_number_date_money_006_vi_native_9227f2ca28_3a147679.wav,11912345678,0119135678,手机号中间数字错/长度不一致
+pt_br,pt_br_number_date_money_005_vi_native_191a64a955_274c2c88.wav,11912345678,0112345678,手机号漏 9
+vi_vn,number_date_money_006_vi_native_6b992f17af_eb133ad3.wav,,,越南语真实听错，待复听核对
+vi_vn,number_date_money_005_vi_native_99971e1db8_a8d435fd.wav,,,越南语真实听错，待复听核对

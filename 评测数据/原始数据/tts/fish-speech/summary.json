@@ -1,0 +1,44 @@
+{
+  "model": "fish-speech",
+  "samples_total": 10,
+  "samples_failed": 0,
+  "samples_ok": 10,
+  "official_streaming": true,
+  "license": "Fish Audio Research License",
+  "avg_audio_duration_s": 7.096018140589569,
+  "total_audio_duration_s": 70.9601814058957,
+  "avg_synth_time_s": 119.56917143939646,
+  "avg_rtf": 16.85157967778332,
+  "p50_rtf": 16.850310999555322,
+  "p95_rtf": 16.883204049900687,
+  "avg_first_chunk_latency_ms": 119334.2310677981,
+  "p95_first_chunk_latency_ms": 141142.1301157534,
+  "peak_rss_mb_max": 831.5078125,
+  "peak_cuda_mb_max": 22044.0,
+  "modes": {
+    "server_streaming": 10
+  },
+  "utterances_jsonl": "<internal-src>/tts/benchmarks/fish-speech/20260420_142443/fish-speech/utterances.jsonl",
+  "runtime": {
+    "python_executable": "<internal-src>/tts/vendors/fish-speech/.venv_manual/bin/python",
+    "python_version": "3.10.17",
+    "cuda_available": true,
+    "rss_mb": 848.4453125
+  },
+  "vendor_repo": {
+    "path": "<internal-src>/tts/vendors/fish-speech",
+    "commit": "3dd1f85c402ee6f0a17c2971d3b0dd8d881ca139",
+    "branch": "main",
+    "remote_url": "https://github.com/fishaudio/fish-speech.git"
+  },
+  "checkpoint_dir": "<internal-src>/tts/models/fish_speech/s2-pro",
+  "streaming": true,
+  "text_group": "naturalness_blind_pt_br",
+  "server_pid": 2343127,
+  "reference_sample": {
+    "audio_path": "<internal-src>/stt/dev/common_voice_pt_19289339.wav",
+    "transcript": "era incrivelmente quente não uma nuvem no céu nem um sopro de vento",
+    "duration_s": 7.9,
+    "source": "Mozilla Common Voice pt-BR dev subset already stored in stt/dev"
+  }
+}

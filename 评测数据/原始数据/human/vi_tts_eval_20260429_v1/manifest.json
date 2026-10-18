@@ -1,0 +1,11 @@
+{
+  "eval_run_id": "vi_tts_eval_20260429_v1",
+  "title": "Vietnamese TTS Streaming Human Evaluation",
+  "created_at": "2026-04-29T15:05:38.513+00:00",
+  "llm_model": "gemma-4-E2B-it",
+  "tts_model": "vieneu-tts-turbo-v2",
+  "audio_format": "pcm_8khz_wav",
+  "sample_slots": 32,
+  "practice_slots": 1,
+  "allow_template_fallback": false
+}

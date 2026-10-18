@@ -1,0 +1,88 @@
+{
+  "model": "mistralai/Ministral-3-8B-Instruct-2512",
+  "samples_total": 60,
+  "samples_failed": 0,
+  "samples_ok": 60,
+  "avg_input_tokens": 816.3,
+  "p95_input_tokens": 829.75,
+  "avg_ttft_ms": 232.02385366773038,
+  "p95_ttft_ms": 620.3292090001923,
+  "avg_ttfms_ms": 497.4753307181042,
+  "p95_ttfms_ms": 857.6268514443655,
+  "avg_e2e_latency_ms": 7655.051742167659,
+  "p95_e2e_latency_ms": 8545.782314745884,
+  "avg_output_tok_per_s": 25.078737300319098,
+  "p50_output_tok_per_s": 25.164285573945286,
+  "p95_output_tok_per_s": 25.30169196106264,
+  "avg_output_char_per_s": 80.62165065834351,
+  "avg_inter_token_p95_ms": 40.879573100986214,
+  "peak_server_rss_mb_max": 3651.94140625,
+  "peak_gpu_used_mb_max": 20761.0,
+  "json_valid_rate": 0.0,
+  "schema_match_rate": 0.0,
+  "field_completeness": 0.4166666666666667,
+  "json_sample_count": 60,
+  "json_failure_mode_counts": {
+    "markdown_fence": 60,
+    "non_json_text": 35,
+    "wrong_type": 9
+  },
+  "json_failure_mode_rates": {
+    "markdown_fence": 1.0,
+    "non_json_text": 0.5833333333333334,
+    "wrong_type": 0.15
+  },
+  "groups": {
+    "json_strict_pt_br_primary": 60
+  },
+  "language_counts": {
+    "pt-BR": 60
+  },
+  "pt_br_ratio": 1.0,
+  "concurrency_breakdown": {
+    "4": {
+      "samples_total": 60,
+      "samples_ok": 60,
+      "avg_ttft_ms": 232.02385366773038,
+      "p95_ttft_ms": 620.3292090001923,
+      "json_valid_rate": 0.0,
+      "schema_match_rate": 0.0,
+      "field_completeness": 0.4166666666666667
+    }
+  },
+  "utterances_jsonl": "<internal-src>/llm/benchmarks/Ministral-3-8B-Instruct-2512/20260422_163625_json_gate_c4_det_schema_inline_len8192_c4_r3_temp0p0/utterances.jsonl",
+  "runtime": {
+    "python_executable": "<internal-src>/llm/.venv_vllm/bin/python",
+    "python_version": "3.10.17",
+    "rss_mb": 960.12890625
+  },
+  "model_id": "mistralai/Ministral-3-8B-Instruct-2512",
+  "served_model_name": "mistralai/Ministral-3-8B-Instruct-2512",
+  "prompt_groups": [
+    "json_strict_pt_br_primary"
+  ],
+  "max_samples": 0,
+  "max_completion_tokens": 200,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "warmup_requests": 1,
+  "repeats": 3,
+  "concurrency": 4,
+  "run_label": "json_gate_c4_det_schema_inline_len8192",
+  "dtype": "auto",
+  "quantization": null,
+  "tensor_parallel_size": 1,
+  "gpu_memory_utilization": 0.9,
+  "max_model_len": 8192,
+  "enforce_eager": false,
+  "base_url": "http://127.0.0.1:58119/v1",
+  "disable_thinking": false,
+  "thinking_control_method": "model_default",
+  "qwen3_no_think": false,
+  "qwen35_no_think": false,
+  "language_model_only": false,
+  "model_weights_gib": 9.77,
+  "kv_cache_gib": 9.05,
+  "kv_cache_tokens": 69808,
+  "engine_init_s": 21.43
+}

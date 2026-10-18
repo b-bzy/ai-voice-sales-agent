@@ -1,0 +1,48 @@
+{
+  "model": "indextts2",
+  "samples_total": 10,
+  "samples_failed": 0,
+  "samples_ok": 10,
+  "official_streaming": false,
+  "license": "bilibili Model Use License Agreement",
+  "avg_audio_duration_s": 9.984580498866213,
+  "total_audio_duration_s": 99.84580498866214,
+  "avg_synth_time_s": 16.286787757399726,
+  "avg_rtf": 1.6326015350756842,
+  "p50_rtf": 1.6093881562969894,
+  "p95_rtf": 1.7385268985181452,
+  "avg_first_chunk_latency_ms": 16280.202338600066,
+  "p95_first_chunk_latency_ms": 19196.66003459133,
+  "peak_rss_mb_max": 3730.45703125,
+  "peak_cuda_mb_max": 7545.62255859375,
+  "modes": {
+    "voice_clone_stream_return": 10
+  },
+  "utterances_jsonl": "<internal-src>/tts/benchmarks/indextts2/20260420_150046/indextts2/utterances.jsonl",
+  "runtime": {
+    "python_executable": "<internal-src>/tts/vendors/index-tts/.venv/bin/python",
+    "python_version": "3.10.17",
+    "cuda_available": true,
+    "rss_mb": 3730.45703125
+  },
+  "vendor_repo": {
+    "path": "<internal-src>/tts/vendors/index-tts",
+    "commit": "830f6f8f94a51fea23ab1d639027a86200075a4e",
+    "branch": "main",
+    "remote_url": "https://github.com/index-tts/index-tts.git"
+  },
+  "model_dir": "<internal-src>/tts/models/indextts2/IndexTTS-2",
+  "cfg_path": "<internal-src>/tts/models/indextts2/IndexTTS-2/config.yaml",
+  "text_group": "naturalness_blind_pt_br",
+  "fp16": true,
+  "use_cuda_kernel": true,
+  "use_accel": false,
+  "use_torch_compile": false,
+  "reference_sample": {
+    "audio_path": "<internal-src>/stt/dev/common_voice_pt_19289339.wav",
+    "transcript": "era incrivelmente quente não uma nuvem no céu nem um sopro de vento",
+    "duration_s": 7.9,
+    "source": "Mozilla Common Voice pt-BR dev subset already stored in stt/dev"
+  },
+  "benchmark_note": "IndexTTS2 is treated as exploratory; pt-BR capability is not assumed and any failures here are useful research outputs"
+}

@@ -1,0 +1,7 @@
+tester_id,language_mode,model_backend,responses,unique_samples,final_feedbacks,native_language,region,age_range,device_type,audio_output,environment,tts_familiarity,first_response,last_response,avg_naturalness,avg_clarity,avg_pronunciation,avg_prosody,avg_comfort,issue_yes
+vi_native_191a64a955,pt_br,gpt-realtime-2,32,32,1,Português do Brasil,São Paulo ,18-24,Computador,Fone de ouvido,Silencioso,Raramente ouço,2026-05-13T16:07:23.884+00:00,2026-05-13T16:35:16.950+00:00,4.0,5.31,4.0,4.0,4.0,0
+vi_native_80241a5b53,pt_br,gpt-realtime-2,32,32,1,Português do Brasil,São paulo,18-24,Computador,Fone de ouvido,Silencioso,Raramente ouço,2026-05-13T16:09:38.892+00:00,2026-05-13T16:26:10.670+00:00,5.0,5.84,5.21,5.29,5.79,0
+vi_native_9227f2ca28,pt_br,gpt-realtime-2,32,32,1,Português do Brasil,São paulo,25-34,Computador,Fone de ouvido,Silencioso,Raramente ouço,2026-05-13T16:21:54.020+00:00,2026-05-13T16:46:04.971+00:00,4.0,4.0,4.0,4.0,4.0,0
+vi_native_bda23e7079,pt_br,gpt-realtime-2,32,32,1,Português do Brasil,são paulo ,,Computador,Fone de ouvido,Silencioso,Raramente ouço,2026-05-13T17:52:56.147+00:00,2026-05-13T18:10:21.557+00:00,6.0,6.0,6.0,6.0,6.0,0
+vi_native_9be3105760,pt_br,gpt-realtime-2,32,32,1,Português do Brasil,,,Computador,Fone de ouvido,Silencioso,Raramente ouço,2026-05-13T17:54:10.343+00:00,2026-05-13T18:15:39.630+00:00,2.83,4.72,4.79,3.25,3.5,0
+vi_native_14aaf2de87,pt_br,gpt-realtime-2,32,32,1,Português do Brasil,Sao paulo ,18-24,Celular,Alto-falante,Normal,Às vezes,2026-05-13T19:41:48.549+00:00,2026-05-13T20:12:54.033+00:00,3.0,4.03,3.13,3.33,3.21,1

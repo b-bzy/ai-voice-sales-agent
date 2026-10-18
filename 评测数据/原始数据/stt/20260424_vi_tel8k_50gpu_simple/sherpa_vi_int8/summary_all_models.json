@@ -1,0 +1,29 @@
+[
+  {
+    "model": "sherpa-onnx-zipformer-vi-int8",
+    "audio_profile": "telephone8k",
+    "samples_total": 50,
+    "samples_failed": 0,
+    "samples_ok": 50,
+    "official_streaming": false,
+    "avg_audio_duration_s": 10.362,
+    "total_audio_duration_s": 518.1,
+    "avg_full_infer_time_s": 0.2299112282169517,
+    "avg_stream_total_time_s": 2.192389781936072,
+    "full_rtf": 0.022187920113583448,
+    "stream_rtf": 0.2115797898027477,
+    "full_wer": 0.09687034277198212,
+    "full_cer": 0.07677377614837179,
+    "stream_wer": 0.09612518628912071,
+    "stream_cer": 0.07526417942635324,
+    "avg_stream_avg_chunk_latency_ms": 128.36919893777625,
+    "p95_stream_avg_chunk_latency_ms": 155.08140117469193,
+    "avg_stream_first_partial_latency_ms": 80.6466139818076,
+    "p95_stream_first_partial_latency_ms": 159.2979078704957,
+    "full_peak_rss_mb_max": 1219.4921875,
+    "stream_peak_rss_mb_max": 1224.4453125,
+    "full_peak_cuda_mb_max": 0.0,
+    "stream_peak_cuda_mb_max": 0.0,
+    "utterances_jsonl": "<internal-src>/stt/benchmarks/20260424_vi_tel8k_50gpu_simple/sherpa_vi_int8/telephone8k/sherpa-onnx-zipformer-vi-int8/utterances.jsonl"
+  }
+]

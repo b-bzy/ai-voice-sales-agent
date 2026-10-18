@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-05-15",
+  "source_dir": "docs/research/benson/eval_runs/gpt_realtime_2_raw_20260514",
+  "source_manifest": "docs/research/benson/eval_runs/gpt_realtime_2_raw_20260514/manifest.json",
+  "eval_run_id": "vi_tts_eval_20260429_v1",
+  "eval_label": "gpt_realtime_2_pt_br_human_eval_20260514",
+  "language_mode": "pt_br",
+  "architecture": "speech_to_speech",
+  "model_backend": "gpt-realtime-2",
+  "llm_model": "not_applicable_for_sts_backend",
+  "tts_model": "not_applicable_for_sts_backend",
+  "voice": "not_recorded",
+  "instructions_hash": "not_recorded",
+  "instructions_source": "not_recorded",
+  "input_mode": "not_recorded",
+  "source_export_response_count": 372,
+  "source_export_pt_br_response_count": 203,
+  "included_real_tester_count": 6,
+  "excluded_pt_br_tester_count": 2,
+  "included_response_count": 192,
+  "included_number_dictation_count": 48,
+  "strict_number_exact": 17,
+  "normalized_number_exact": 44,
+  "schema_notes": {
+    "source_manifest_note": "The source manifest is a mixed vi_vn + pt_br export. This audit manifest isolates the corrected pt_br STS evaluation scope.",
+    "legacy_latency_fields": [
+      "llm_ttft_ms",
+      "llm_first_segment_ms",
+      "tts_first_audio_ms",
+      "total_response_ms"
+    ],
+    "sts_backend_interpretation": "gpt-realtime-2 is an end-to-end speech-to-speech backend. llm_ttft_ms and llm_first_segment_ms are not applicable. Use tts_first_audio_ms as first playable audio approximation and total_response_ms as full response completion.",
+    "recommended_next_schema": [
+      "first_audio_chunk_ms",
+      "audio_complete_ms",
+      "audio_duration_ms",
+      "e2e_latency_ms"
+    ]
+  },
+  "cleaning_rules": {
+    "rating_scale": "0-6, where 0 is worst and 6 is best",
+    "low_score_rate": "any primary subjective rating <= 1",
+    "number_acceptable_match": "raw export initially equals exact_match; audit table adds normalized_exact_match for amount/date/phone/digit equivalence"
+  },
+  "known_limitations": [
+    "voice, instructions, instructions hash, and input mode were not recorded in the source export",
+    "the source export directory also contains vi_vn data; this audit only counts language_mode=pt_br",
+    "issue sample audio files are referenced by server paths but are not included in this repository, so manual relistening is still pending"
+  ]
+}
